@@ -18,7 +18,7 @@
     "rvm": {
         "default_ruby": "ruby-1.9.3-p374",
         "branch": "none",
-        "version": "1.18.4",
+        "version": "1.17.10",
         "gems": {
             "ruby-1.9.3-p374": [
                 {
