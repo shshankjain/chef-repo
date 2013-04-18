@@ -1,5 +1,6 @@
 {
   "id": "deployer",
   "ssh_keys": "ssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABAQC/aDroxYFDqu4hZdzzp6ZFSMUV/jKX8DtUUBIbQWcYUrA+DLdXU38FNWx8r8L+nrnLNzf8JygZ6E+M7raF6LYOIyxwTbLc8WBo1uQLCee9XdajNhVAtotBE3daJllMqimW0OI06Jqpxc9Nlicmdr7i1Fb8CLb6YHLx0+MSfnmfGivK+DtMKATJrX/B2joQ3icGbaa6ge6gV9KRaT7IkdeHi47ym1QVwBSq7zyfBDNvg2Y3Nk5ppo5svHRaRiZfFNoQvTENpwvAdSiira4yyJgj3yjfG1ZaFaUyGhx8C5B/YfjBXsKtKxM1+JQeUlPLzWJO4kdMMlp04i9jI7Ic1+ON deployer",
-  "groups": [ "sysadmin" ]
+  "groups": [ "sysadmin" ],
+  "shell" : "\/bin\/bash"
 }
