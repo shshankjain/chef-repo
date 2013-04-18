@@ -1,0 +1,42 @@
+{
+    "nginx": {
+        "init_style": "init",
+        "source": {
+            "modules": [
+                "http_ssl_module",
+                "http_gzip_static_module",
+                "passenger"
+            ]
+        },
+        "passenger": {
+            "version": "3.0.19",
+            "ruby": "/usr/local/rvm/wrappers/ruby-1.9.3-p374@global/ruby",
+            "root": "/usr/local/rvm/gems/ruby-1.9.3-p374/gems/passenger-3.0.19"
+        },
+        "worker_processes": 4
+    },
+    "rvm": {
+        "default_ruby": "ruby-1.9.3-p374",
+        "branch": "none",
+        "version": "1.18.4",
+        "gems": {
+            "ruby-1.9.3-p374": [
+                {
+                    "name": "passenger",
+                    "version": "3.0.19"
+                },
+                {
+                    "name": "bundler",
+                    "version": "1.2.1"
+                },
+                {
+                    "name": "rake",
+                    "version": "10.0.4"
+                }
+            ]
+        }
+    },
+    "mysql": {
+        "server_root_password": "root"
+    }
+}
