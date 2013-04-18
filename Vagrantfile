@@ -30,7 +30,6 @@ Vagrant::Config.run do |config|
   chef.add_recipe "rvm::system"
   chef.add_recipe "rvm::gem_package"
   chef.add_recipe "rvm::vagrant"
-  chef.add_recipe "application_custom::set_ruby_default"
   chef.add_recipe "nginx::source"
   end
 end
